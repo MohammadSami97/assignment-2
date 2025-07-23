@@ -45,3 +45,19 @@
     color: #000000;
 }
 
+@media screen and (max-width:576px) {
+    .navbar{
+        margin: 13px 16px 28px 16px;
+    }
+    .logo{
+        max-width: 63px ;
+        max-height: 38px;
+    }
+    .menu-item{
+        display: none;
+    }
+    /* .menu-cart{
+        padding-bottom: 7px;
+        padding-top: 7px;
+    } */
+}
