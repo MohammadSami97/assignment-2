@@ -21,15 +21,20 @@
     align-items: center;
     color: #8987A1;
 
+    
+
 }
 
-.menu-item{
+.menu-item-link{
+      text-decoration: none;
     
 }
 
 #home{
     font-weight: 700;
     color: #252432;
+  
+    
 }
 
 .menu-cart{
