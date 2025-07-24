@@ -1,3 +1,7 @@
+body{
+    background-color: #F5F8FF;
+}
+
 /* shared styes */
 .flex{
     display: flex;
@@ -5,6 +9,14 @@
 
 .hide{
     display: none;
+}
+
+.btn-mango{
+    background-color: #E95A08;
+    padding: 19px 89.2px ;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
 }
 
 /* nav styles */
@@ -56,6 +68,7 @@
     margin: 0 auto;
     align-items: end ;
     justify-content: center;
+    margin-bottom: 120px;
     
 }
 
@@ -91,6 +104,62 @@
     width: 100%;
 }
 
+/* plants styles */
+.plants-sect{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.plants-intro{
+    max-width: 888px;
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+.plants-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 16px;
+}
+#our{
+    color: #E95A08;
+}
+
+.plants-subtitle{
+    font-size: 1.375rem;
+    color: #00000050;
+    margin: 0;
+}
+
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 20px;
+
+}
+.plants-card{
+    background-color:#FFFFFF ;
+}
+
+.plants-name{
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin: 30px 0 20px;
+    color: #111111;
+    
+}
+
+.plants-price{
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #111111;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* responsive for small device */
 @media screen and (max-width:576px) {
     .navbar{
         margin: 13px 16px 28px 16px;
